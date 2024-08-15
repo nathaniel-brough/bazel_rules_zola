@@ -21,9 +21,9 @@ def zola_deps():
     if "zola-v0-14-1-x86_64-pc-windows-msvc" not in native.existing_rules():
         http_archive(
             name = "zola-v0-14-1-x86_64-pc-windows-msvc",
-            url = "https://github.com/getzola/zola/releases/download/v0.16.1/zola-v0.16.1-x86_64-pc-windows-msvc.zip",
+            url = "https://github.com/getzola/zola/releases/download/v0.19.2/zola-v0.19.2-x86_64-pc-windows-msvc.zip",
             build_file = "@rules_zola//third_party:zola-v0-14-1-x86_64-pc-windows-msvc.BUILD",
-            sha256 = "b19b8317a9a0d53339df8a5d910af0682abad5c65f593d58fcc35c6d00ab8732",
+            sha256 = "969cb24c2dfa21427690252e95bf92f0065f8582f1679f23ede67a865266b780",
         )
     if "bazel_skylib" not in native.existing_rules():
         http_archive(
