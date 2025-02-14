@@ -7,9 +7,9 @@ def zola_deps():
     if "zola-v0-14-1-x86-64-unknown-linux-gnu" not in native.existing_rules():
         http_archive(
             name = "zola-v0-14-1-x86-64-unknown-linux-gnu",
-            url = "https://github.com/getzola/zola/releases/download/v0.14.1/zola-v0.14.1-x86_64-unknown-linux-gnu.tar.gz",
+            url = "https://github.com/getzola/zola/releases/download/v0.20.0/zola-v0.20.0-x86_64-unknown-linux-gnu.tar.gz",
             build_file = "@rules_zola//third_party:zola-v0-14-1-x86-64-unknown-linux-gnu.BUILD",
-            sha256 = "4223f57d9b60ad7217c44a815fa975b2229f692b7ef3de4b7ce61f1634e8dc33",
+            sha256 = "ca7ed5b33a739c5b5b35a0e207e5c3578a652cd12b61c675763b3ff34c322d08",
         )
     if "zola-v0-14-1-x86_64-apple-darwin" not in native.existing_rules():
         http_archive(
