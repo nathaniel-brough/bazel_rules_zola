@@ -14,7 +14,7 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 # Set up host hermetic host toolchain.
 git_repository(
     name = "rules_cc_toolchain",
-    commit = "f2d8037997f3c52bec4815231e5b57c056367f23",
+    commit = "3802479cd31f29e30da5f56a5f8f078b721fbbf9",
     remote = "https://github.com/silvergasp/rules_cc_toolchain.git",
 )
 
